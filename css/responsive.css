@@ -8,7 +8,7 @@
 
 @media (min-width: 992px) and (max-width: 1169px) {
   .slider-content {
-    padding: 146px 0;
+    padding: 180px 0;
   }
   .work-right-text {
     padding: 40px 0;
@@ -22,6 +22,10 @@
 /* Tablet desktop :768px. */
 
 @media (min-width: 768px) and (max-width: 991px) {
+  .slider-content {
+    padding: 160px 0px;
+  }
+
   .main-menu ul.navbar-nav li {
     display: inline-block;
     padding: 0 8px;
@@ -119,6 +123,13 @@
 /* small mobile :320px. */
 
 @media (max-width: 767px) {
+  .slider-content {
+    padding: 20px 0;
+  }
+
+  h1.title2{
+    font-size: 16px;
+  }
 
   .header-area {
     height: 60px !important;
